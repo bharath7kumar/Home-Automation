@@ -10,6 +10,7 @@ import os
 # specific demo. If you have trouble installing it, try any of the other demos that don't require it instead.
 
 # testing git after checkout
+# commiting for the 2nd time
 
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
