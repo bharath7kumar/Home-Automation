@@ -97,6 +97,7 @@ while True:
 
 # Release handle to the webcam
 video_capture.release()
+# feature
 cv2.destroyAllWindows()
 
 # bug fix
