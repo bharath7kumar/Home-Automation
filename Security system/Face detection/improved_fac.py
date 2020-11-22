@@ -18,6 +18,8 @@ known_faces = sorted(os.listdir('known_faces'))
 face_image = []
 face_image_encoding = []
 
+# feature 1
+
 for image in known_faces:
     face_image.append(cv2.imread("known_faces/"+image).astype(np.uint8))
     face_image_encoding.append(face_recognition.face_encodings(face_image)[0] )
