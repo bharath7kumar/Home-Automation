@@ -96,3 +96,4 @@ video_capture.release()
 cv2.destroyAllWindows()
 
 # bug fix
+# bug fix 2
