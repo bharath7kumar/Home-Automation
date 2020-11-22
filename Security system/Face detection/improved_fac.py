@@ -9,6 +9,8 @@ import os
 # OpenCV is *not* required to use the face_recognition library. It's only required if you want to run this
 # specific demo. If you have trouble installing it, try any of the other demos that don't require it instead.
 
+# testing git after checkout
+
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
 
