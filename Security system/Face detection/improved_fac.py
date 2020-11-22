@@ -12,7 +12,7 @@ import os
 
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
-
+# feature 1
 iterator = 0
 known_faces = sorted(os.listdir('known_faces'))
 face_image = []
