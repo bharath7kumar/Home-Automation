@@ -50,6 +50,8 @@ known_face_names = [image.split('.')[0] for image in known_faces]
 frame_skip = True
 k = 0
 i = 0
+
+# feature 2
 while True:
     # Grab a single frame of video
     ret, frame = video_capture.read()
