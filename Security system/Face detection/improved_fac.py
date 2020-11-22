@@ -38,6 +38,8 @@ known_face_encodings = face_image_encoding
 
 known_face_names = [image.split('.')[0] for image in known_faces]
 
+# feature 2
+
 #print(known_face_encodings)
 #print(known_face_names)
 
