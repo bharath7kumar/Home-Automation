@@ -18,8 +18,6 @@ known_faces = sorted(os.listdir('known_faces'))
 face_image = []
 face_image_encoding = []
 
-# feature 1
-
 for image in known_faces:
     face_image.append(cv2.imread("known_faces/"+image).astype(np.uint8))
     face_image_encoding.append(face_recognition.face_encodings(face_image)[0] )
@@ -37,8 +35,6 @@ for image in known_faces:
 known_face_encodings = face_image_encoding
 
 known_face_names = [image.split('.')[0] for image in known_faces]
-
-# feature 2
 
 #print(known_face_encodings)
 #print(known_face_names)
@@ -97,8 +93,4 @@ while True:
 
 # Release handle to the webcam
 video_capture.release()
-# feature
 cv2.destroyAllWindows()
-
-# bug fix
-# bug fix 2
